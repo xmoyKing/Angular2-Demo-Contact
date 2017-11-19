@@ -16,6 +16,10 @@ export const rootRouterConfig: Routes = [
         component: ListComponent
     },
     {
+        path: 'list/:id',
+        component: DetailComponent
+    },
+    {
         path: 'edit',
         component: EditComponent
     },
